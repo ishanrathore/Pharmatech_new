@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #112d42;
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #03a9f4;
+}
+
+section .containercont {
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+}
+
+section .containercont .continfo {
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc( 100% - 80px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    /* page-break-after: 400px; */
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba (0, 0, 0, 0.2);
+}
+
+section .containercont .continfo h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+section .containercont .continfo .info {
+    position: relative;
+    margin: 20px 0;
+}
+
+section .containercont .continfo li {
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+section .containercont .continfo li span :nth-child(1) {
+    width: 30px;
+    min-width: 30px;
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 1;
+}
+
+section .containercont .continfo li span :nth-child(2) {
+    color: white;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 1;
+}
+
+#contphone {
+    color: white;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+section .containercont .contactform {
+    position: absolute;
+    padding: 70px 50px;
+    background: white;
+    width: calc(100%-150px);
+    margin-left: 150px;
+    padding-left: 250px;
+    height: 100%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+#contadd {
+    color: white;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+#contemail {
+    color: white;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+
+/* section .containercont .continfo li span :nth-child(1):hover {
+    opacity: 1;
+} */
+
+#contphone:hover {
+    opacity: 1;
+}
+
+#contemail:hover {
+    opacity: 1;
+}
+
+#contadd:hover {
+    opacity: 1;
+}
+
+section .containercont .contactform {
+    position: absolute;
+    padding: 70px 50px;
+    background: white;
+    width: calc(100%-150px);
+    margin-left: 150px;
+    padding-left: 250px;
+    height: 100%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+section .containercont .contactform h2 {
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+section .containercont .contactform .formbox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+section .containercont .contactform .formbox .inputbox {
+    margin: 0 0 35px 0;
+    position: relative;
+    width: 47%
+}
+
+section .containercont .contactform .formbox .textbox {
+    width: 100%;
+}
+
+#ip {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: #211;
+}
+
+#textip {
+    resize: none;
+    max-height: 120px;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: #211;
+}
+
+#fnamespan {
+    /* position: absolute; */
+    padding: 5px 0;
+    /* left: 0; */
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    /* transition: 0.5s; */
+}
+
+#lnamespan {
+    /* position: absolute; */
+    padding: 5px 0;
+    /* left: 0; */
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    /* transition: 0.5s; */
+}
+
+#emailspan {
+    /* position: absolute; */
+    padding: 5px 0;
+    /* left: 0; */
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    /* transition: 0.5s; */
+}
+
+#mobspan {
+    /* position: absolute; */
+    padding: 5px 0;
+    /* left: 0; */
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    /* transition: 0.5s; */
+}
+
+#textboxspan {
+    /* position: absolute; */
+    padding: 5px 0;
+    /* left: 0; */
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    /* transition: 0.5s; */
+}
+
+.sendbutton {
+    background: #0f3959;
+    /* position: relative; */
+    cursor: pointer;
+    margin-top: 51px;
+    color: white;
+    width: 25%;
+    height: 40px;
+    border: 1px solid #0f3959;
+}
+
+.sendbutton:hover {
+    color: #0a2a42;
+    background: #03a9f4;
+    border: 1px solid #03a9f4;
+    /* font-weight: bold; */
+    /* color: white; */
+}
