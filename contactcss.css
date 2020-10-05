@@ -165,7 +165,7 @@ section .containercont .contactform .formbox .textbox {
     width: 100%;
 }
 
-#ip {
+input {
     width: 100%;
     padding: 5px 0;
     font-size: 18px;
@@ -175,6 +175,12 @@ section .containercont .contactform .formbox .textbox {
     border-bottom: 1px solid #777;
     outline: #211;
 }
+
+input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
 
 #textip {
     resize: none;
