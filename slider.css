@@ -1,0 +1,12 @@
+.carousel-item {
+    height: 400px;
+    /* min-height: 350px; */
+    /* margin-top: 20px; */
+    background: no-repeat center center scroll;
+    background-color: #8fcbff4a;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    /* margin-top: 100px; */
+}

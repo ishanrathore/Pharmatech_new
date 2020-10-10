@@ -1,0 +1,280 @@
+body {
+    /* background-image: url('pexels-ricardo-esquivel-2295433.jpg'); */
+    /* width: 50px;
+    height: 50px; */
+    /* position: relative; */
+    background-size: cover;
+    /* opacity: 0.5; */
+    /* background-repeat: no-repeat; */
+    /* background: #97caef; */
+    background: #c5cbe3;
+}
+
+.heading {
+    margin-top: 33px;
+    /* margin-left: 105px; */
+    text-align: center;
+    font-size: 45px;
+    /* color: #1fc2c2; */
+    /* background-color: #dfe3ff75; */
+    /* font-family: 'Frank Ruhl Libre', serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-weight: 300; */
+    font-family: "Benton Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    /* margin: 0px; */
+    /* font-size: 5.6rem; */
+    font-weight: 600;
+    color: rgb(44, 54, 67);
+    letter-spacing: -0.025em;
+}
+
+
+/* 
+.abcont {
+    border: 3px solid #000000;
+
+margin: 100px;
+height: 263.5px;
+font-size: 18px;
+margin-right: 230px;
+
+margin-right: 100px;
+
+margin-left: 242px;
+padding: 10px;
+background: #fcfcfc;
+
+border-radius: 2px;
+
+
+}
+.abcont img {
+    position: relative;
+    width: 250px;
+    height: 240px;
+    display: flex;
+    float: left;
+}
+.abtext {
+    border: 2px solid red; 
+    margin: 20px;
+    
+    margin-left: 278px;
+     margin-right: 190px;
+} */
+
+.startbox {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* .contactabt {
+    margin-top: 80px;
+    border: 2px solid red;
+    height: 450px;
+    background: #eaeaeade;
+    padding-top: 20px;
+    margin-left: 10px;
+    /* width 
+}
+
+.contactabt input {
+    margin: 10px;
+    padding: 5px;
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    /* font-smoothing: antialiased; */
+    text-rendering: optimizeLegibility;
+}
+
+
+/* body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: #4CAF50;
+} */
+
+.containerct {
+    width: 2000px;
+    /* width: 100%; */
+    margin: 0 auto;
+    position: relative;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #000;
+    background: #3872f3
+}
+iframe{
+    margin: 10px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #3872f3;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+.textbox {
+    margin: 10px;
+}
+
+.aboutus {
+    background: #eaeaeade;
+    /* margin: 80px; */
+    margin-right: 10px;
+    padding: 32px;
+    float: left;
+    /* margin-right: 71px; */
+}
+
+.aboutus img {
+    float: right;
+    height: 240px;
+    width: 250px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.abtbtn {
+    margin: 10px;
+    /* background-color: coral; */
+    text-decoration: none;
+}
+
+.ytbtn {
+    /* background-color: red; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* background-color: crimson; */
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+    background: url('youtube-logo-png-3566.png');
+    color: white;
+}
+
+.brbtn {
+    background-color: black;
+}
